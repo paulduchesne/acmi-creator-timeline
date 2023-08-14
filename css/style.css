@@ -1,0 +1,38 @@
+.timeAxis line {
+    stroke: white;
+}
+
+.timeAxis path {
+    stroke: white;
+}
+
+.timeAxis text {
+    fill: white;
+}
+
+.work_label {
+    opacity: 0;
+    fill: white;
+    pointer-events: none;
+    font-size: 10px;
+    font-family: Spartan;
+    font-weight: 600;
+}
+
+.life_line {
+    opacity: 1;
+    pointer-events: all;
+    fill: white;
+}
+
+.life_text {
+    opacity: 1;
+    stroke: blue;
+    stroke-width: 0px;
+    fill: white;
+    pointer-events: none;
+    font-size: 10px;
+    font-family: Spartan;
+    font-weight: 600;
+    text-anchor: middle;
+}
